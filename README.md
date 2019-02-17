@@ -7,7 +7,6 @@ A tool that allows you to identify surrounding objects using your voice. Connect
 - io
 - sys
 - os
-- NumPy
 - [Houndify Python SDK](https://docs.houndify.com/sdks/docs/python#python-houndify-sdk)
 - [Google Cloud Vision API](https://cloud.google.com/vision/docs/reference/rest/)
 
