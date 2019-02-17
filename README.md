@@ -14,7 +14,7 @@ A tool that allows users to better understand their surroundings using image pro
 - [Google Cloud Vision API](https://cloud.google.com/vision/docs/reference/rest/)
 
 ### Authenticate with Google Cloud API prior to running code: 
-Use this line: 
+Run this line in terminal: 
 export GOOGLE_APPLICATION_CREDENTIALS=“/home/user/Downloads/[FILE_NAME].json”
 
 ### Run your program with this line of code: 
