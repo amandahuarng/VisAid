@@ -1,14 +1,14 @@
 # VisAid
-A tool that allows you to identify surrounding objects using your voice. Connecting the Google Cloud Vision API with Houndify's Speech-To-Text API, users can interact with the program by asking it questions about his/her environment and the program will use Text-To-Speech and respond to user queries, specifically "What does it say?" and "How many people are in the room?"
+A tool that allows users to better understand their surroundings using image processing and speech recognition. Utilizing both Google Cloud Vision API and Houndify's Speech-To-Text API, VisAids lets users ask it questions about their environment and will respond with an answer. It does this by leveraging OpenCV to capture images and by using Text-To-Speech to respond to user queries.
 
-## Make sure you install the following packages before running: 
+## Make sure you install the following SDKs and packages before running: 
 - sox 
 - json
 - io
 - sys
 - os
 - gTTS
-- openCV
+- OpenCV
 - matplotlib
 - [Houndify Python SDK](https://docs.houndify.com/sdks/docs/python#python-houndify-sdk)
 - [Google Cloud Vision API](https://cloud.google.com/vision/docs/reference/rest/)
