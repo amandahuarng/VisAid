@@ -1,10 +1,8 @@
 # VisAid
-A tool that allows you to identify surrounding objects using your voice.
-
+A tool that allows you to identify surrounding objects using your voice. Connecting the Google Cloud Vision API with Houndify's Speech-To-Text API, users can interact with the program by asking it questions about his/her environment and the program will answer accordingly.
 
 ## Make sure you install the following packages before running: 
 - sox 
-- houndify
 - json
 - io
 - sys
@@ -17,7 +15,7 @@ A tool that allows you to identify surrounding objects using your voice.
 Use this line: 
 export GOOGLE_APPLICATION_CREDENTIALS=“/home/user/Downloads/[FILE_NAME].json”
 
-#### Run your program with this line of code: 
+### Run your program with this line of code: 
 rec -p | sox - -c 1 -r 16000 -t s16 -L - | main.py *CLIENT ID* *CLIENT KEY*
  
 Replace *CLIENT ID* and *CLIENT KEY* with your unique keys on your Houndify Dashboard
