@@ -10,8 +10,8 @@ A tool that allows you to identify surrounding objects using your voice.
 - sys
 - os
 - NumPy
-- Houndify Python SDK
-- Google Cloud Vision API (https://cloud.google.com/vision/docs/reference/rest/)
+- [Houndify Python SDK](https://docs.houndify.com/sdks/docs/python#python-houndify-sdk
+- [Google Cloud Vision API](https://cloud.google.com/vision/docs/reference/rest/)
 
 ## Authenticate with Google Cloud API prior to running code: 
 Use this line: 
