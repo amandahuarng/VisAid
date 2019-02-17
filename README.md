@@ -4,7 +4,6 @@ A tool that allows you to identify surrounding objects using your voice.
 
 ## Make sure you install the following packages before running: 
 - sox 
-- Google Cloud authentication
 - houndify
 - json
 - io
@@ -12,7 +11,7 @@ A tool that allows you to identify surrounding objects using your voice.
 - os
 - NumPy
 - Houndify Python SDK
-- Google Cloud Vision API
+- Google Cloud Vision API (https://cloud.google.com/vision/docs/reference/rest/)
 
 ## Authenticate with Google Cloud API prior to running code: 
 Use this line: 
